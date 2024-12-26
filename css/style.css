@@ -91,7 +91,8 @@
 
 .search {
     display: flex;
-    width: 400px;
+    max-width: 400px;
+    width: 100%;
     padding: 12px 18px 12px 16px;
     align-items: center;
     border-radius: 6px 0px 0px 6px;
@@ -182,6 +183,7 @@
     align-items: center;
     background: var(--Gray-Scale-Gray-800, #333);
 }
+
 .informationBox {
     max-width: 1320px;
     width: 100%;
@@ -189,21 +191,289 @@
     justify-content: space-between;
     padding: 16px 0px 16px 0px;
 }
+
 .pages {
     display: flex;
     align-items: center;
     gap: 32px;
 }
+
 .home {
     display: flex;
     align-items: center;
     gap: 4px;
 }
+
 a {
     text-decoration: none;
 }
+
 .Shop {
     display: flex;
     align-items: center;
     gap: 4px;
+}
+
+.pHome {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.pParaghraps {
+    color: #999;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+.phoneNumber {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.number {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.main {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    /* align-items: center; */
+    max-width: 1320px;
+    width: 100%;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.mainWrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 36px;
+}
+
+.mainBox {
+    background-image: url(../image/Bannar\ Big\ .svg);
+    max-width: 872px;
+    width: 100%;
+    height: 600px;
+    padding: 0px 0px 0px 60px;
+    display: flex;
+    align-items: center;
+}
+
+.organic {
+    max-width: 596px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.freshFood {
+    color: var(--Gray-Scale-White, #FFF);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+
+}
+
+.line {
+    background: var(--Branding-Success-Bright, #84D187);
+    width: 2px;
+    height: 65px;
+}
+
+.sale {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.up {
+    display: flex;
+    gap: 8px;
+
+    flex-direction: column;
+}
+
+.saleUp {
+    display: flex;
+    gap: 8px;
+    color: var(--Gray-Scale-White, #FFF);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+
+}
+
+.buttonid {
+    padding: 4px 12px;
+    border-radius: 5px;
+    background: var(--Branding-Warning, #FF8A00);
+    color: #FFF;
+    border: none;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.shipping {
+    color: #999;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.shopNow {
+    display: flex;
+    padding: 14px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    color: var(--Branding-Success, #00B207);
+    border-radius: 53px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    border: none;
+}
+
+.saleOne {
+    background-image: url(../image/BG.png);
+    width: 423px;
+    height: 288px;
+    flex-shrink: 0;
+    border-radius: 10px;
+}
+
+.leaves {
+    background-image: url(../image/leaves.png);
+    max-width: 423px;
+    width: 100%;
+    height: 288px;
+}
+
+.photos {
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+}
+
+.saleOne {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 32px 0px 0px 32px;
+
+}
+
+.summerSale {
+    width: 156px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.sSale {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.summerSsale {
+    color: var(--Gray-Scale-Gray-900, #1A1A1A);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    text-transform: uppercase;
+}
+
+.discount {
+    color: var(--Gray-Scale-Gray-900, #1A1A1A);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+
+}
+
+.shopNoww {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+
+
+}
+
+.leaves {
+    background-image: url(../image/leaves.png);
+    max-width: 423px;
+    width: 100%;
+    height: 288px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paraghrapOne {
+    color: var(--Branding-Success, #00B207);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.bestDeal {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+}
+
+.productParaghraps {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.bestDeals {
+    color: var(--Gray-Scale-White, #FFF);
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    text-transform: uppercase;
+}
+
+.pd {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 343px;
+}
+
+.speacialProduct {
+    color: var(--Gray-Scale-White, #FFF);
+    text-align: center;
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+   
 }
