@@ -475,5 +475,23 @@ a {
     font-style: normal;
     font-weight: 600;
     line-height: 120%;
-   
+
+}
+
+.costumerInformation {
+    display: flex;
+    max-width: 1320px;
+    width: 100%;
+    padding: 40px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    background: var(--Gray-Scale-White, #FFF);
+    box-shadow: 0px 8px 40px 0px rgba(0, 38, 3, 0.08);
+}
+.truck {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    
 }
