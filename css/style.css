@@ -256,7 +256,7 @@ a {
 .mainWrapper {
     display: flex;
     justify-content: center;
-    margin-top: 36px;
+    margin-top: 24px;
 }
 
 .mainBox {
@@ -488,10 +488,115 @@ a {
     border-radius: 8px;
     background: var(--Gray-Scale-White, #FFF);
     box-shadow: 0px 8px 40px 0px rgba(0, 38, 3, 0.08);
+    flex-wrap: wrap;
 }
+
 .truck {
     display: flex;
     align-items: center;
     gap: 16px;
-    
+
+}
+
+.freeShip {
+    color: #1A1A1A;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+
+}
+
+.freeShipping {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.productWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px
+}
+
+.categories {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1320px;
+    width: 100%;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.categoriesP {
+    color: var(--Gray-Scale-Gray-900, #1A1A1A);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.viewall {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.fruitWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 0px 24px 0px;
+    gap: 16px;
+    border-radius: 5px;
+    border: 1px solid var(--Gray-Scale-Gray-100, #E6E6E6);
+    background: var(--Gray-Scale-White, #FFF);
+    cursor: pointer;
+    color: var(--Branding-Success-Dark, #2C742F);
+}
+
+.fruitWrapper:hover {
+    border: 1px solid var(--Branding-Success-Dark, #2C742F);
+    box-shadow: 0px 0px 12px 0px rgba(32, 181, 38, 0.32);
+    cursor: pointer;
+    color: var(--Branding-Success-Dark, #2C742F);
+}
+
+.fruitWrapper:hover .fresh {
+    color: var(--Branding-Success-Dark, #2C742F);
+}
+
+.fruitBox {
+    max-width: 1320px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fresh {
+    color: var(--Gray-Scale-Gray-900, #1A1A1A);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+
+.fruitBoxWrapper {
+    gap: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1320px;
+    width: 100%;
+}
+.fruitWrapper p:hover {
+    color: var(--Branding-Success-Dark, #2C742F);
 }
